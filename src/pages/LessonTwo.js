@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 
 //* Initial Value & white screen issue (useState)
 
+//  as data is coming as a object we have to give it as a object otherwise there  will be white screen issue
+
 function LessonTwo() {
   const [post, setPost] = useState({});
 
